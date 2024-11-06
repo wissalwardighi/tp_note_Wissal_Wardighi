@@ -85,7 +85,7 @@ class Film
         return $this->joueurs;
     }
 
-    // Setter pour les joueurs (optionnel, mais vous pouvez l'ajouter si nécessaire)
+    // Setter pour les joueurs 
     public function setJoueurs(Collection $joueurs): static
     {
         $this->joueurs = $joueurs;
