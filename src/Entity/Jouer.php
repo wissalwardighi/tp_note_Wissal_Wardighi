@@ -29,7 +29,7 @@ class Jouer
      */
     private ?Acteur $acteur = null;
 
-    // Vous pouvez ajouter d'autres champs si nécessaire
+    
     #[ORM\Column(length: 100)]
     private ?string $role = null;
 
